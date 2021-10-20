@@ -5,7 +5,6 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-<link rel="stylesheet" href="/css/app.css"> 
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10003,4 +10002,12 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+body {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+nav.navbar.navbar-expand-lg {
+  margin-bottom: 20px;
 }
