@@ -18,6 +18,12 @@ class UsersController extends Controller
         ]);
     }
 
+    public function index(){
+        // $users=user::all();
+        $users=User::paginate(6);//分页
+        return view('users.index',compact('users'));
+    }
+
     public function create(){
         return view('users.create');
     }
